@@ -10,6 +10,16 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ELibrary_2.0.Manager\ELibrary_2.0.Manager.csproj" />
+    <ProjectReference Include="..\ELibrary_2.0.Repository\ELibrary_2.0.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\PartialView\" />
   </ItemGroup>
 
 </Project>
